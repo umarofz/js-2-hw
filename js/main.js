@@ -1,8 +1,12 @@
-var Soqqa = prompt("Pulni kiriting");
+var mySoqqa = prompt("Pulni kiriting");
 
-var necessarySoqqa = Math.floor(8317488.6);
+var dollar = 9433.34;
 
-if (Soqqa >= necessarySoqqa) {
+var evro = 10354.03;
+
+var necessarySoqqa = Math.floor((dollar * 750) + (evro * 120));
+
+if (mySoqqa >= necessarySoqqa) {
   console.log("Oq yo'l, Alisher!");
   alert("Oq yo'l, Alisher!");
 } else {
